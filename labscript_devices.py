@@ -38,7 +38,7 @@ class Picomotor8742(IntermediateDevice):
     def __init__(
         self,
         name,
-        parent_device,
+        parent_device=None,
         TCPIP_address='192.168.1.150',
         **kwargs
     ):
@@ -90,7 +90,7 @@ class TwoPicomotor8081(IntermediateDevice):
     def __init__(
         self,
         name,
-        parent_device,
+        parent_device=None,
         TCPIP_address1='192.168.1.150',
         TCPIP_address2='192.168.1.151',
         TCPIP_address3='192.168.1.152',
